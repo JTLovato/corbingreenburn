@@ -684,8 +684,8 @@ h1 {
   }
   .main.inverted3 {
     animation: 0;
-    mask-size: 60vw auto;
-    mask-position: 20vw 60vh;
+    mask-size: 85vw auto;
+    mask-position: 5vw 60vh;
     mask-repeat: no-repeat;
   }
 
