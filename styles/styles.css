@@ -774,19 +774,20 @@ h1 {
 
   .about_info {
     width: 90%;
-    max-height: 48%;
+    max-height: 45%;
     padding: 5px;
     border-radius: 0 0 20px 20px;
   }
   .profile_image_holder {
     width: calc(90% + 10px);
     border-radius: 20px 20px 0 0;
-    max-height: 40%;
-    margin-top: 10%;
+    max-height: 50%;
+    object-fit: cover;
     object-position: center 0%;
   }
   .about_profile_front {
     border-radius: 20px 20px 0 0;
+    height: auto;
   }
 
   .contact_info_holder {
