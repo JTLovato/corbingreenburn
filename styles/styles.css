@@ -673,19 +673,19 @@ h1 {
   .main.inverted {
     animation: 0;
     mask-size: auto 50px;
-    mask-position: 10vw 30vh;
+    mask-position: 10vw 40vh;
     mask-repeat: no-repeat;
   }
   .main.inverted2 {
     animation: 0;
     mask-size: auto 50px;
-    mask-position: 10vw 50vh;
+    mask-position: 15vw 50vh;
     mask-repeat: no-repeat;
   }
   .main.inverted3 {
     animation: 0;
-    mask-size: auto 50px;
-    mask-position: 50vw 70vh;
+    mask-size: 20vw auto;
+    mask-position: 60vw 60vh;
     mask-repeat: no-repeat;
   }
 
@@ -730,15 +730,21 @@ h1 {
     height: 90%;
   }
 
+  .photo_title_holder h2,
+  .photo_title_holder h2,
+  .photo_title_holder h2 {
+    font-size: 1.2rem;
+  }
+
   .right_side_1 .photo_title_holder h2,
   .right_side_2 .photo_title_holder h2,
   .right_side_3 .photo_title_holder h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .right_side_1 .photo_title_holder h3,
   .right_side_2 .photo_title_holder h3,
   .right_side_3 .photo_title_holder h3 {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 
   .desktop_nav {
@@ -759,6 +765,7 @@ h1 {
   .about_info_holder {
     width: 95%;
     height: 90%;
+    padding-bottom: 100px;
   }
 
   .about_info_holder {
@@ -778,5 +785,10 @@ h1 {
   }
   .about_profile_front {
     border-radius: 20px 20px 0 0;
+  }
+
+  .contact_info_holder {
+    height: 80%;
+    width: 95%;
   }
 }
