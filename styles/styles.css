@@ -672,19 +672,19 @@ h1 {
 
   .main.inverted {
     animation: 0;
-    mask-size: auto;
+    mask-size: auto 50px;
     mask-position: 10vw 30vh;
     mask-repeat: no-repeat;
   }
   .main.inverted2 {
     animation: 0;
-    mask-size: auto;
+    mask-size: auto 50px;
     mask-position: 10vw 50vh;
     mask-repeat: no-repeat;
   }
   .main.inverted3 {
     animation: 0;
-    mask-size: auto;
+    mask-size: auto 50px;
     mask-position: 50vw 70vh;
     mask-repeat: no-repeat;
   }
