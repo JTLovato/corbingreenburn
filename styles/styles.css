@@ -29,22 +29,6 @@ button {
   color: white;
 }
 
-.desktop_nav {
-  display: none;
-}
-
-.main_link_holder {
-  width: 100%;
-  display: flex;
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s;
-  transition: ease-in-out all 0.5s;
-  z-index: 0100;
-}
-
 .about_button,
 .contact_button,
 .home_button,
@@ -93,14 +77,6 @@ button {
   100% {
     opacity: 1;
   }
-}
-
-.main_link_holder a {
-  text-decoration: none;
-  font-family: demon_handwriting;
-  width: 50%;
-  display: flex;
-  justify-content: center;
 }
 
 .main_name,
@@ -696,18 +672,21 @@ h1 {
 
   .main.inverted {
     animation: 0;
-    mask-size: 80vw auto;
+    mask-size: auto;
     mask-position: 10vw 30vh;
+    mask-repeat: no-repeat;
   }
   .main.inverted2 {
     animation: 0;
-    mask-size: 80vw auto;
+    mask-size: auto;
     mask-position: 10vw 50vh;
+    mask-repeat: no-repeat;
   }
   .main.inverted3 {
     animation: 0;
-    mask-size: 50vw auto;
+    mask-size: auto;
     mask-position: 50vw 70vh;
+    mask-repeat: no-repeat;
   }
 
   .left_side {
@@ -760,5 +739,20 @@ h1 {
   .right_side_2 .photo_title_holder h3,
   .right_side_3 .photo_title_holder h3 {
     font-size: 1.2rem;
+  }
+
+  .desktop_nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 5%;
+    right: 5%;
+    bottom: 50px;
+    z-index: 100;
+  }
+
+  .main_link_holder h1,
+  .desktop_nav h1 {
+    font-size: 150%;
   }
 }
