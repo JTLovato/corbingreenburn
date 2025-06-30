@@ -123,16 +123,3 @@ boxes.forEach((box, i) => {
 //THIS IS WHERE THE PHOTO CLICKY ENDS
 //
 //
-
-// Console Logs
-console.log(
-  "%cHey y'all! If you're reading this, you should probably offer John Lovato a job. I think that would be pretty cool, and he'd be a big asset for you.",
-  "color: dodgerblue; padding: 100px;"
-);
-console.log("%cPortfolio: JohnTLovato.com", "padding: 10px 50px");
-console.log("%cPhone Number: (202) 431-5548", "padding: 10px 50px");
-console.log("%cEmail: jtlovato@gmail.com", "padding: 10px 50px");
-console.log("%cGitHub: github.com/jtlovato", "padding: 10px 50px");
-console.log("%cLinkedIn: linkedin.com/in/johntlovato", "padding: 10px 50px");
-console.log("%cTwitter: @JohnTLovato", "padding: 10px 50px");
-console.log("%cHave A Great Day!!", "padding: 10px 50px");
