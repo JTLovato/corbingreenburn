@@ -202,7 +202,6 @@ h1 {
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10.3px);
-  transition: ease-in-out all 0.5s;
   position: absolute;
   top: 0;
   left: 0;
@@ -421,7 +420,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: ease-in all 1s;
+  transition: ease-in all 0.25s;
   position: absolute;
 }
 
@@ -454,7 +453,7 @@ h1 {
   object-fit: cover;
   object-position: center top;
   z-index: 5;
-  transition: all ease-in-out 0.65s;
+  transition: all ease-in-out 0.25s;
   margin: 0;
 }
 
@@ -469,7 +468,7 @@ h1 {
   color: #fff;
   cursor: pointer;
   top: 20%;
-  transition: ease-in all 1s;
+  transition: ease-in all 0.25s;
   text-shadow: 3px 6px 6px rgba(0, 0, 0, 0.64);
 }
 
@@ -640,7 +639,7 @@ h1 {
 
 .photo_title_holder > :nth-child(2) {
   opacity: 1;
-  transition: ease-out all 1s;
+  transition: ease-out all 0.25s;
 }
 
 .open_photos .photo_title_holder > :nth-child(2) {
@@ -673,20 +672,20 @@ h1 {
 
   .main.inverted {
     animation: 0;
-    mask-size: auto 60px;
-    mask-position: 20vw 40vh;
+    mask-size: 50vh auto;
+    mask-position: 10vw 20vh;
     mask-repeat: no-repeat;
   }
   .main.inverted2 {
     animation: 0;
-    mask-size: auto 50px;
-    mask-position: 25vw 50vh;
+    mask-size: 75vw auto;
+    mask-position: 20vw 50vh;
     mask-repeat: no-repeat;
   }
   .main.inverted3 {
     animation: 0;
-    mask-size: 75vw auto;
-    mask-position: 5vw 60vh;
+    mask-size: 60vw auto;
+    mask-position: 5vw 80vh;
     mask-repeat: no-repeat;
   }
 
@@ -754,7 +753,7 @@ h1 {
     position: fixed;
     left: 5%;
     right: 5%;
-    bottom: 10px;
+    bottom: 25px;
     z-index: 100;
   }
 
