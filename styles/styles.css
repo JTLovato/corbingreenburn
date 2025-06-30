@@ -755,4 +755,28 @@ h1 {
   .desktop_nav h1 {
     font-size: 150%;
   }
+
+  .about_info_holder {
+    width: 95%;
+    height: 90%;
+  }
+
+  .about_info_holder {
+    flex-wrap: wrap;
+  }
+
+  .about_info {
+    width: 90%;
+    max-height: 58%;
+    padding: 5px;
+    border-radius: 0 0 20px 20px;
+  }
+  .profile_image_holder {
+    width: calc(90% + 10px);
+    border-radius: 20px 20px 0 0;
+    max-height: 40%;
+  }
+  .about_profile_front {
+    border-radius: 20px 20px 0 0;
+  }
 }
