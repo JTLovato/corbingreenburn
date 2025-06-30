@@ -134,8 +134,8 @@ button {
 
 .main.inverted {
   filter: invert(1);
-  -webkit-mask-image: url("./img/first_glitch.gif");
-  mask-image: url("./img/first_glitch.gif");
+  -webkit-mask-image: url("../img/first_glitch.gif");
+  mask-image: url("../img/first_glitch.gif");
   object-fit: cover;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -148,8 +148,8 @@ button {
 }
 .main.inverted2 {
   filter: invert(1);
-  -webkit-mask-image: url("./img/second_glitch.gif");
-  mask-image: url("./img/second_glitch.gif");
+  -webkit-mask-image: url("../img/second_glitch.gif");
+  mask-image: url("../img/second_glitch.gif");
   object-fit: cover;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -163,8 +163,8 @@ button {
 
 .main.inverted3 {
   filter: invert(1);
-  -webkit-mask-image: url("./img/third_glitch.webp");
-  mask-image: url("./img/third_glitch.webp");
+  -webkit-mask-image: url("../img/third_glitch.webp");
+  mask-image: url("../img/third_glitch.webp");
   object-fit: cover;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
