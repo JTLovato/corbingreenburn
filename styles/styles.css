@@ -648,8 +648,8 @@ h1 {
   overflow-x: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px; /* space between images */
-  align-items: flex-start; /* aligns images to the top of the row */
+  gap: 8px;
+  align-items: flex-start;
 }
 
 .open_photos .all_picture_holder_location img,
@@ -691,11 +691,74 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   .desktop_nav {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
-  .main_inverted {
-    animation: none;
-    mask-size: 80% auto;
+  .main.inverted {
+    animation: 0;
+    mask-size: 80vw auto;
+    mask-position: 10vw 30vh;
+  }
+  .main.inverted2 {
+    animation: 0;
+    mask-size: 80vw auto;
+    mask-position: 10vw 50vh;
+  }
+  .main.inverted3 {
+    animation: 0;
+    mask-size: 50vw auto;
+    mask-position: 50vw 70vh;
+  }
+
+  .left_side {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 65%;
+  }
+
+  .right_side_1 {
+    top: 65%;
+    left: 0%;
+    width: 32%;
+    height: 34%;
+    font-size: 1rem;
+  }
+
+  .right_side_2 {
+    top: 65%;
+    left: 34%;
+    width: 32%;
+    height: 34%;
+    font-size: 1rem;
+  }
+
+  .right_side_3 {
+    top: 65%;
+    left: 68%;
+    width: 32%;
+    height: 34%;
+  }
+
+  .open_photos .all_picture_holder_location img,
+  .open_photos .all_picture_holder_music img,
+  .open_photos .all_picture_holder_cosplay img,
+  .open_photos .all_picture_holder_portraits img {
+    width: 100%;
+  }
+
+  .photography_holder {
+    height: 90%;
+  }
+
+  .right_side_1 .photo_title_holder h2,
+  .right_side_2 .photo_title_holder h2,
+  .right_side_3 .photo_title_holder h2 {
+    font-size: 1.5rem;
+  }
+  .right_side_1 .photo_title_holder h3,
+  .right_side_2 .photo_title_holder h3,
+  .right_side_3 .photo_title_holder h3 {
+    font-size: 1.2rem;
   }
 }
