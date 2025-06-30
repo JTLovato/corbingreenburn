@@ -273,7 +273,7 @@ h1 {
 
 .main_link_holder h1,
 .desktop_nav h1 {
-  font-size: 300%;
+  font-size: 3rem;
   cursor: pointer;
   transition: ease-in-out all 0.15s;
 }
@@ -793,5 +793,10 @@ h1 {
   .contact_info_holder {
     height: 80%;
     width: 95%;
+  }
+
+  .main_link_holder h1,
+  .desktop_nav h1 {
+    font-size: 2rem;
   }
 }
